@@ -1,0 +1,15 @@
+.team {
+    background-color: var(--surface-default);
+}
+
+.team h3 {
+    text-align: center;
+}
+
+.team li {
+    background-color: var(--surface-primary);
+}
+
+.team p {
+    text-align: center;
+}

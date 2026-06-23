@@ -1,0 +1,15 @@
+.hero {
+    background-color: var(--surface-hero);
+}
+
+.hero button {
+    background: var(--brand-default);
+    color: var(--surface-primary);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.hero button:hover,
+.hero button:focus {
+    background: var(--brand-pressed);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
