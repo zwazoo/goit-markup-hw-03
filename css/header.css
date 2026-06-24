@@ -1,8 +1,38 @@
+.header {
+    border-bottom: 1px solid var(--accent-subtle);
+}
+
+.header-container {
+    padding: 24px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--contrast-high);
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
 }
 
 .contact-link {
