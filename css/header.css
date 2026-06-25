@@ -3,7 +3,6 @@
 }
 
 .header-container {
-    padding: 24px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +21,8 @@
 }
 
 .nav-link {
+    padding: 24px 0;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
